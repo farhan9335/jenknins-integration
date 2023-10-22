@@ -12,6 +12,7 @@ public class JenkninsIntegrationApplication {
 
 	public static void main(String[] args) {
 		logger.info("Started main method executing....");
+		
 		SpringApplication.run(JenkninsIntegrationApplication.class, args);
 		logger.info("Ended main method execution....");
 	}
