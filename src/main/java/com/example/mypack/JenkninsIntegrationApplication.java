@@ -1,5 +1,7 @@
 package com.example.mypack;
 
+import javax.annotation.PostConstruct;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -16,6 +18,7 @@ public class JenkninsIntegrationApplication {
 		logger.info("Ended main method execution....");
 	}
 	
+	@PostConstruct
 	public void taskExecutedBeforRunApplication() {
 		logger.info("Run before appliation started...");
 	}
