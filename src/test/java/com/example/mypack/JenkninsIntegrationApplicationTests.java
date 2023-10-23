@@ -14,14 +14,10 @@ class JenkninsIntegrationApplicationTests {
 
 	@Test
 	void contextLoads() {
-		
-	}
-	
-	void testCase() {
 		logger.info("<------------Stared excution of Junit test method----------------->");
 		assertEquals(true, true);
 		logger.info("<------------ended excution of Junit test method----------------->");
-		
 	}
+	
 
 }

@@ -13,14 +13,14 @@ public class JenkninsIntegrationApplication {
 	public static Logger logger = LoggerFactory.getLogger(JenkninsIntegrationApplication.class);
 
 	public static void main(String[] args) {
-		logger.info("Started main method executing....");
+		logger.info("<--------------Started main method executing---------------->");
 		SpringApplication.run(JenkninsIntegrationApplication.class, args);
-		logger.info("Ended main method execution....");
+		logger.info("<-------------Ended main method execution------------------>");
 	}
 	
 	@PostConstruct
 	public void taskExecutedBeforRunApplication() {
-		logger.info("Run before appliation started...");
+		logger.info("<-------------Run before appliation started------------------->");
 	}
 
 }
